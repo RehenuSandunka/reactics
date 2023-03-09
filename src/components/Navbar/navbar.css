@@ -1,0 +1,223 @@
+.navbarSection
+{
+    background:grey;
+
+}
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    width:100%;
+    padding:1rem;
+    z-index: 1000;
+
+}
+
+.logoDiv .logo{
+
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+
+}
+
+.logoDiv .logo .icon{
+    font-size: 30px;
+
+}
+
+
+.activeHeader{
+    background:#FFECFC;
+    box-shadow: 0 2px 8px 2px rgba(102, 100, 100, 0.45);
+
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .navbar{
+        background:#FFECFC;
+        position:absolute;
+        height:max-content;
+        padding:1rem;
+        width:100%;
+        top:0;
+        left:-500%;
+        transition: .5s ease;
+        box-shadow: 1 2px 4px rgba(2009,209,209,0.904);
+        z-index: 1000;
+
+
+
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .navLists{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .navItem{
+        padding:1rem 0;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .navLink{
+        color:black;
+        font-size: .9rem;
+        font-weight: 600;
+        
+
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .navLink:hover{
+        color: blueviolet;
+        transition: .1s ease;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+
+
+    .icon:hover{
+        color: blueviolet;
+        transition: .1s ease;
+
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .closeNavbar{
+        position: absolute;
+        top:1rem;
+        right:1.5rem;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .closeNavbar:hover{
+       color: blueviolet;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+
+
+    .activeNavbar{
+        left:0;
+    }
+    
+}
+
+
+
+
+
+
+    
+
+@media screen  and (min-width:769px) {
+
+     .toggleNavbar, .closeNavbar{
+         display: none;
+     }
+    }
+
+@media screen  and (min-width:769px) {
+
+     .header{
+         padding: 1.5rem 6rem;
+     }
+    }
+
+    @media screen  and (min-width:769px) {
+
+     .navLists{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media screen  and (min-width:769px) {
+
+    .navLink{
+        color: black;
+        padding: 0 .45rem;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 2rem;
+    }
+}
+
+@media screen  and (min-width:769px) {
+    .navLink:hover{
+        color:blueviolet;
+    }
+}
+
+@media screen  and (min-width:769px) {
+
+    .icon:hover{
+        color:blueviolet;
+        transition: .1s ease;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen  and (min-width:960px) {
+.navIItem{
+    padding: 0 4rem;
+}
+
+
+}
+
+
+@media screen  and (min-width:1024px) {
+    .navIItem{
+        padding: 1rem 8.5rem;
+    }
+    
+    
+    }

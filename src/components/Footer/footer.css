@@ -1,0 +1,155 @@
+.footer{
+    background-color: black;
+    color: #FFD2F8;
+    padding: 2rem 0;
+   
+}
+
+.footer .secContainer{
+    gap:1.5rem;
+    text-align: center;
+
+}
+.footerLogo{
+    padding-bottom: 2rem;
+   
+}
+
+.footerLogo h1{
+    color: #FFD2F8;
+}
+
+.iconz{
+    font-size: 45px;
+   color:#FFD2F8;
+    margin-right: .5rem;
+    padding: 8px;
+    transition: .1s ease;
+
+}
+
+.iconz:hover{
+    color: violet;
+}
+
+.footer li a{
+    color:#FFD2F8;
+}
+
+.phone,.email{
+    color:#FFD2F8;
+    font-weight: 400;
+}
+
+
+
+
+
+.footerLogo .Logo{
+ cursor: pointer;
+ font-weight: 500;
+ align-items: center;
+ justify-content: center;
+ padding-bottom: .5rem;
+}
+
+.socials{
+   
+    margin: auto;
+    justify-content: center;
+
+}
+
+.footerLinks{
+    display: grid;
+    row-gap: .6rem;
+   
+}
+
+.footerLinks4{
+    display: flex;
+    margin: auto;
+}
+
+.linkTitle{
+    padding-bottom: .5rem;
+    color:#FFD2F8;
+    font-weight: 600;
+}
+
+.linkTitle li:hover{
+    transform:translateX(10px);
+
+}
+
+li a{
+    color: #FFD2F8;
+   
+    
+
+}
+
+li a:hover{
+    color: violet;
+    transition: .1s ease;
+
+}
+
+
+
+.lara{
+    text-align:center;
+    justify-content: center;
+    margin-top: 2rem;
+    line-height: 2rem;
+   
+   
+}
+
+.lara .intro{
+    color: #FFD2F8;
+}
+
+.footer .secContent4{
+
+    gap:10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4rem;
+    
+   
+}
+
+.last{
+    display: flex;
+  padding: 2rem 6rem;
+  
+    border-top: 1px solid #FFD2F8;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+   
+    font-weight: 600;
+    color: #FFD2F8;
+}
+
+.last li a:hover{
+    color: violet;
+    transition: .1s;
+}
+
+
+
+
+
+
+@media screen and(min-width:448px) {
+    .secContainer4{
+        grid-template-columns:repeat(2,1fr);
+        text-align: center;
+        align-items: flex-start;
+    }
+    
+}

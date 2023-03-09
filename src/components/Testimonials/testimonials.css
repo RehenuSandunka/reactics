@@ -1,0 +1,26 @@
+.testi { background-image: url('Testimoni.png');
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+height :100%;
+width: 100%;
+text-align: center;
+}
+.pp{
+    padding-top: 2rem;
+}
+
+.name{
+    font-style: italic;
+    color: grey;
+    line-height: 4rem;
+  
+
+   
+}
+
+.testi .secContainer2{
+    padding: 8rem 6rem ;
+}
+
+

@@ -1,0 +1,66 @@
+.features{
+
+ background-image: url("powder2.png");
+ background-repeat: no-repeat;
+
+ background-position-x:80.5rem;
+ background-position-y:-5.2rem;
+
+
+
+}
+
+
+
+.mainContent{
+    gap:14rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4rem;
+
+}
+ 
+.singleItem{
+    text-align: center;
+   
+   
+  
+ 
+ 
+    
+}
+
+h3{
+    font-weight: 500;
+    color:black;
+    padding: .5rem;
+    line-height:3rem;
+    
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: .5rem;
+    color:grey;
+    padding-top: 1rem;
+    
+
+}
+
+
+
+
+
+
+.icon2{
+   
+    color:#A57E9A;
+    font-size: 2rem;
+   
+}
+
+
+
+

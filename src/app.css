@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/jokerman');
+
+
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    transition: .3s ease;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.section{
+    padding:4rem 0 2rem;
+}
+
+.container{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: center;
+}
+
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+    color: black;
+   
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+.btn{
+    padding: 1rem 3rem;
+    background: black;
+    border-radius: 0rem;
+    cursor: pointer;
+   
+   
+}
+
+.btn:hover{
+
+    background:blueviolet;
+    border:none;
+   
+   
+   
+}
+
+
+
+.btn a{
+    color: white;
+    font-weight: 500;
+}
+
+.btn:hover a{
+    color:white;
+}
+
+.secIntro{
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto 2rem;
+
+}
+
+.secIntro .secTitle{
+    color:black;
+    line-height: 1.5rem;
+    padding-bottom: 5rem;
+}
+
+.secIntro p{
+    font-size: 13px;
+    color:black;
+    font-weight: 500;
+}
+
+img{
+    width:100%;
+    height: auto;
+}
+
+.logo h1{
+    font-family: 'Jokerman', sans-serif;
+    color: black;
+    font-size: 30px;
+                                                
+}
+
+
+@media screen and(min-width:556px) {
+    .mainContent{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+@media screen and(min-width:884px) {
+    .mainContent{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}

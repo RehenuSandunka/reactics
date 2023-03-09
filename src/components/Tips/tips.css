@@ -1,0 +1,83 @@
+.tips{
+    background-image: url('tips.png');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+   
+   
+ 
+    
+}
+
+.tipcard{
+    
+    justify-content: space-between;
+  
+  width: 15%;
+ 
+    text-align: center;
+
+}
+
+.tips .secTitle2{
+    text-align: center;
+    margin-top: 3rem;
+
+}
+
+
+
+
+
+.tipcard h3{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0;
+}
+
+.tipcard .sub{
+    font-style: italic;
+    font-size: 14px;
+    
+}
+
+.tipcard p{
+    font-size: 14px;
+    
+
+}
+
+
+
+
+
+@media screen and(min-width:556px){
+
+    .tipcard p{
+        font-size: 12px;}
+}
+
+
+@media screen and(min-width:556px){
+    .tipcard{
+    
+        justify-content: space-between;
+      
+      width: 12%;
+     
+        text-align: center;
+    
+    }
+}
+
+@media screen and(min-width:556px){
+
+    
+.tipcard h3{
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0;
+}
+}
+
